@@ -37,7 +37,7 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
-p {
+main p {
     font-size: 33px;
     font-family: var(--fonte-padrao);
 }
