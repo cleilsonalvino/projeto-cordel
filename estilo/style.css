@@ -13,8 +13,7 @@
 
 body {
 
-   height: 100vh;
-   background-attachment: fixed;
+
    
 }
 
@@ -45,10 +44,7 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
-main {
-   min-width: 350px;
 
-}
 
 main p {
     font-size: 33px;
@@ -60,7 +56,7 @@ main p {
 }
 
 section {
-    padding: 100px;
+    padding: 50px 0px 50px 0px;
 }
 
 .joaninha {
@@ -68,8 +64,7 @@ section {
     height: 100vh;
     width: 100%;
     background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+ 
 }
 
 .joaninha > p {
