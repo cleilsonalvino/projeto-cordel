@@ -29,7 +29,7 @@ header > h1 {
     padding: 40px 0px 5px 0px;
 }
 header > p {
-    font-size: 16px;
+    font-size: 24px;
     padding-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
@@ -63,6 +63,7 @@ section {
 .joaninha > p {
     color: white;
     background-color: rgba(121, 121, 121, 0.425);
+    transform: translate(0%, 50%);
    
 }
 
@@ -75,6 +76,7 @@ section {
 .papel > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.425);
+    transform: translate(0%, 50%);
 }
 
 footer {
