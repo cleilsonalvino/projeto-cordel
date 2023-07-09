@@ -11,6 +11,12 @@
     margin: 0;
 }
 
+body {
+
+   height: 100vh;
+   background-attachment: fixed;
+}
+
 header {
     background-color: black;
     color: white;
@@ -40,8 +46,40 @@ header > p > a:hover {
 main p {
     font-size: 33px;
     font-family: var(--fonte-padrao);
+    width: 400px;
+    padding: 5px;
 }
 
 section {
     padding: 100px;
+}
+
+.joaninha {
+    background-image: url(../imagens/background001.jpg);
+    height: 98vh;
+    background-attachment: fixed;
+}
+
+.joaninha > p {
+    color: white;
+    background-color: rgba(121, 121, 121, 0.425);
+   
+}
+
+.papel {
+    background-image: url(../imagens/background002.jpg);
+    height: 98vh;
+    background-attachment: fixed;
+}
+
+.papel > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-align: center;
 }
