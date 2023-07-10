@@ -7,91 +7,72 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
-
-
-   
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    min-width: 250px;
-    
 }
+
 header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
     font-family: var(--fonte-titulo);
-    font-size: 80px;
-    padding: 40px 0px 5px 0px;
+    font-size: 77px;
 }
+
 header > p {
-    font-size: 24px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
+    font-size: 24px;
 }
-header > p > a {
-    text-decoration: none;
-    font-family: var(--fonte-titulo);
+
+header a, footer a {
     color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
-header > p > a:hover {
+
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-
-
-main p {
-    font-size: 33px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
     font-family: var(--fonte-padrao);
-    width: 400px;
-    margin: 50px;
-    padding: 5px;
+    font-size: 28px;
+}
+
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(65, 63, 63);
+    color: white;
     
 }
 
-section {
-    padding: 50px 0px 50px 0px;
-}
-
-.joaninha {
-    background-image: url(../imagens/background001.jpg);
-    height: 100vh;
-    width: 100%;
-    background-attachment: fixed;
- 
-}
-
-.joaninha > p {
-    color: white;
-    background-color: rgba(121, 121, 121, 0.425);
-    transform: translate(0%, 50%);
-   
-}
-
-.papel {
-    background-image: url(../imagens/background002.jpg);
-    height: 100vh;
-    width: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: left center;
-}
-
-.papel > p {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.425);
-    transform: translate(0%, 50%);
+section.imagem > p {
+    background-color: rgba(12, 11, 11, 0.479);
+    width: 400px;
 }
 
 footer {
     background-color: black;
     color: white;
-    font-family: var(--fonte-padrao);
     text-align: center;
 }
